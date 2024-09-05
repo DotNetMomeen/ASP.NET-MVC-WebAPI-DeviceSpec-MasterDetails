@@ -1,0 +1,35 @@
+
+URL:
+
+for GET : (Show)
+http://localhost:52661/api/Devices
+
+for POST : (Insert)
+http://localhost:52661/api/Devices
+
+for POST : (Edit)
+http://localhost:52661/api/Devices/1
+
+for POST : (Delete)
+http://localhost:52661/api/Devices/1
+
+
+
+    {
+        "DeviceName": "Redmi Note 13",
+        "ReleaseDate": "2024-10-10T00:00:00",
+        "Price": 25000.0000,
+        "OnSale": true,
+        "Picture": "masxgxga.jpg",
+        "Specs": [
+            {
+                "SpecName": "RAM",
+                "Value": "128GB"
+            },
+
+            {
+                "SpecName": "Camera",
+                "Value": "108MP"
+            }     
+        ]
+    }
